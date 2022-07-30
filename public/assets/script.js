@@ -3,6 +3,9 @@ $("document").ready(()=>{
 
     newItem = $("#new")
     newItem.click(()=>{
-        
+        $(".create").attr('style','display:flex')
+        $(".close").click(()=>{
+            $(".create").attr('style','display:none')
+        })
     })
 })

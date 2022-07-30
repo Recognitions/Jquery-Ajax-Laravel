@@ -28,20 +28,29 @@
                 <b>Create Item</b>
                 <div class="close"></div>
             </div>
+            <div class="fetch">
+                <input type="text" placeholder="XML path">
+                <div class="botao blue">fetch</div>
+            </div>
             <div class="create_main">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
+                <div class="input_area">
+                    <input type="text" placeholder="ID">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Description">
+                    <input type="text" placeholder="Tags">
+                    <input type="text" placeholder="tags">
+                </div>
                 <div class="credits">
+                    <img src="/assets/images/me.png" width="100" height="100" class="icon">
                     <div>
-                        <b>100</b>
+                        <input type="number">
                         <div class="credit gold"></div>
                     </div>
                     <div>
-                        <b>200</b>
+                        <input type="number">
                         <div class="credit token"></div>
                     </div>
+                    <img src="/assets/images/y.png">
                 </div>
             </div>
             <div class="create_footer">
