@@ -1,7 +1,9 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Code;
+use App\Http\Controllers\Items;
 
-Route::get('/', function () {
-    return view('index',[Code::class,'create']);
+Route::get('/', [Items::class,'Main']);
+
+Route::get('/a', function(){
+    return view('index');
 });
